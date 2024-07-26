@@ -73,7 +73,11 @@ header {
     opacity: 0.3; /* Adjust the opacity as needed */
     z-index: 1;
 }
-
+.span12{
+color: black;
+text-align: center;
+text-decoration: none;
+}
 
 /* slider css  */
 
