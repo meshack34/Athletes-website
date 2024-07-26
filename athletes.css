@@ -1,3 +1,4 @@
+
 /* Define theme colors */
 :root {
     --theme-primary-color: #EC0011;
@@ -39,17 +40,17 @@ header {
     margin-right: 10px;
 }
 
-.nav-links {
+.nav-linksm {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.nav-links li {
+.nav-linksm li {
     position: relative;
 }
 
-.nav-links a {
+.nav-linksm a {
     text-decoration: none;
     color: #0242AE;
     padding: 10px 15px;
@@ -58,9 +59,25 @@ header {
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.nav-linksm a:hover {
     color: #EC0011;
 }
+
+
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -49%);
+    opacity: 0.3; /* Adjust the opacity as needed */
+    z-index: 1;
+}
+
+
+/* slider css  */
+
+/* Navbar styles */
+
 
 .cv-page {
     display: flex;
@@ -267,45 +284,7 @@ header {
     text-decoration: underline;
   }
   
-  /* Responsive Styles */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        align-items: center;
-        background: #333;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        display: none;
-    }
 
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links li {
-        margin-bottom: 10px;
-    }
-
-    .cv-left, .cv-right {
-        flex: 1 1 100%;
-    }
-
-    .cv-header {
-        flex-direction: column;
-    }
-
-    .cv-header img {
-        width: 80px;
-        height: 80px;
-    }
-}
-
-/* Mobile Menu Toggle */
-.menu-toggle {
-    display: none;
-}
 /* Print styles */
 @media print {
     header, .cv-print-btn, .footer {
@@ -319,6 +298,47 @@ header {
     .cv-container {
         box-shadow: none;
     }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+    }
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-linksm {
+        flex-direction: column;
+        align-items: center;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        display: none;
+    }
+
+    .nav-linksm.active {
+        display: flex;
+    }
+
+    .nav-linksm li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
 }
 
 @media (max-width: 768px) {
