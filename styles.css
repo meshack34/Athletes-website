@@ -114,8 +114,8 @@ header {
     opacity: 1;
 }
 .slide .content {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px;
+    background-color:#EC0011 ! important ;
+    padding: 10px;
     border-radius: 10px;
     color: lightpink;
     text-align: center;
@@ -144,10 +144,7 @@ header {
 }
 
 /* Events */
-  .content{
-    background-color:#EC0011 ! important ;
-    width: 100%;
-   }
+ 
 #content{
     background-color: #333 !important;
     text-align: center;
