@@ -164,8 +164,10 @@ text-decoration: none;
     color: var(--theme-footer-link-hover-color);      /* Link hover color */
     text-decoration: underline;
   }
+
+
   
-  /* Responsive Styles */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .nav-linksm {
         flex-direction: column;
@@ -191,7 +193,6 @@ text-decoration: none;
 .menu-toggle {
     display: none;
 }
-
 
 @media (max-width: 768px) {
     .menu-toggle {
