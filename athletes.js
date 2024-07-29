@@ -23,7 +23,17 @@ document.addEventListener('DOMContentLoaded', function() {
     function printCV() {
         const activeCV = document.querySelector('.cv.active');
         const originalContent = document.body.innerHTML;
-        const printContent = activeCV.outerHTML;
+        const watermark = `
+            <div class="watermark-container">
+                <img src="images/logo1.PNG" alt="Watermark" class="watermark">
+            </div>
+        `;
+        const printContent = `
+            <div class="cv-container">
+                ${watermark}
+                ${activeCV.outerHTML}
+            </div>
+        `;
 
         document.body.innerHTML = printContent;
         window.print();
