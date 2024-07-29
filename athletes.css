@@ -64,8 +64,9 @@ header {
     color: #0242AE;
     padding: 10px 15px;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     transition: color 0.3s ease;
+    font-weight: 600;
 }
 
 .nav-linksm a:hover {
