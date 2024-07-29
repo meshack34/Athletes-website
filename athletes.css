@@ -277,7 +277,8 @@ table th {
 table td {
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 850;
+    font-size: 13px;
 }
 
 table tr:nth-of-type(even) {
