@@ -66,7 +66,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-55%, -49%);
-    opacity: 0.3; /* Adjust the opacity as needed */
+    opacity: 0.3; 
     z-index: 1;
 }
 
@@ -78,14 +78,15 @@ header {
     text-align: center; 
 }
 
-.watermark {
-    width: auto; /* Adjust as needed */
-    height: 100%; /* Adjust as needed */
-    opacity: 0.1; /* Adjust opacity as needed */
+/* .watermark {
+    width: auto; 
+    height: 100%; 
+    opacity: 0.1; 
     pointer-events: none; 
     text-align: center;
-}
+} */
 
+/* cv page */
 .cv-page {
     display: flex;
     justify-content: center;
