@@ -396,14 +396,17 @@ table tr:hover {
     margin: 0 auto;
     border-bottom: 2px solid #EC0011;
 }
-.footer .logo {
+.footer .logom {
     display: flex;
     align-items: center;
+    padding :20px;
+    margin: 20px;
 }
-.footer .logo img {
+.footer .logom img {
     height: 120px;
     border-radius: 50px;
     margin-right: auto;
+    padding: 15px;
 }
 .footer .links, .footer .social {
     display: flex;
