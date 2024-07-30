@@ -68,7 +68,7 @@ header {
 
 .watermark-container {
     position: absolute;
-    top: 5px; /* 5px from the top */
+    top: 145px; /* 5px from the top */
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
