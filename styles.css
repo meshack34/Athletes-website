@@ -168,7 +168,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 130px; /* Space between flex items */
+    gap: 140px; /* Space between flex items */
     max-width: 1200px;
     margin: 0 auto;
     border-bottom: 2px solid #EC0011;
@@ -178,13 +178,15 @@ header {
     align-items: center;
     padding: 20px;
     margin: 20px;
+    margin-left: 100px;
+    text-align: center;
 }
 
 .footer .logom img {
-    height: 125px;
+    height: 80px;
     width: auto;
-    border-radius: 19px;
-    margin: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
     padding: 10px;
 }
 
