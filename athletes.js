@@ -1,4 +1,23 @@
 let currentSlide = 0;
+document.addEventListener('DOMContentLoaded', function () {
+    const cvPrintBtns = document.querySelectorAll('.cv-print-btn');
+    cvPrintBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            btn.classList.add('hidden'); // Hide the print button
+            window.print();
+        });
+    });
+
+    window.onafterprint = function () {
+        cvPrintBtns.forEach(function (btn) {
+            btn.classList.remove('hidden'); // Show the print button after printing
+        });
+    };
+});
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.cv');

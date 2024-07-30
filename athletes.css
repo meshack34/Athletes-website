@@ -61,32 +61,29 @@ header {
     color: #EC0011;
 }
 
-.watermark {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -49%);
-    opacity: 0.3; 
-    z-index: 1;
-}
+/* nav bar end */
+
+
+/* cv page start */
 
 .watermark-container {
     position: absolute;
-    top: 20px; 
+    top: 5px; /* 5px from the top */
     left: 50%;
     transform: translateX(-50%);
-    text-align: center; 
+    width: 100%;
+    text-align: center;
 }
 
-/* .watermark {
-    width: auto; 
-    height: 100%; 
-    opacity: 0.1; 
-    pointer-events: none; 
-    text-align: center;
-} */
+.watermark {
+    width: 100%; /* Full page width */
+    height: auto;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 2;
+}
 
-/* cv page */
+
 .cv-page {
     display: flex;
     justify-content: center;
@@ -132,22 +129,6 @@ header {
     flex-direction: column;
     height: 100%;
     position: relative;
-}
-
-.watermark-container {
-    position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-}
-
-.watermark {
-    width: 130%; /* Adjust as needed */
-    height: auto;
-    opacity: 0.2;
-    pointer-events: none;
 }
 
 .cv-header, .cv-main, .cv-footer {
@@ -444,7 +425,7 @@ table tr:hover {
     }
 
     .watermark {
-        width: 130%; /* Adjust as needed */
+        width: 90%; /* Adjust as needed */
         height: auto;
         opacity: 0.2;
         pointer-events: none;
