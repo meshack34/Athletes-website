@@ -29,18 +29,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    margin-right: 200px;
 }
 
 .logo img {
-    height: 70px;
+    height: 80px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-left: 100px;
 }
 
 .nav-linksm {
     list-style: none;
     display: flex;
     gap: 20px;
+    
 }
 
 .nav-linksm li {
