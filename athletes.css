@@ -366,29 +366,6 @@ table tr:hover {
     text-align: center;
 }
 
-.footer .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 130px; /* Space between flex items */
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer .logom {
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-}
-
-.footer .logom img {
-    height: 125px;
-    width: auto;
-    border-radius: 19px;
-    margin: 10px;
-    padding: 10px;
-}
 
 .footer .links, .footer .social {
     display: flex;
@@ -398,15 +375,12 @@ table tr:hover {
 
 .footer .links p, .footer .social p {
     margin: 0;
-    margin-bottom: 10px;
     font-weight: bold;
 }
 
 .footer .links a, .footer .social a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 5px;
-    font-size: 14px;
 }
 
 .footer .links a:hover, .footer .social a:hover {
@@ -414,7 +388,6 @@ table tr:hover {
 }
 
 .footer .copyright {
-    margin-top: 20px;
     font-size: 14px;
 }
 
