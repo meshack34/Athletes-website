@@ -379,30 +379,57 @@ table tr:hover {
     right: 10px;
 }
 
- 
-  /* Style for footer */
-  .footer {
-    background-color: var(--theme-footer-background); /* Background color */
-    color: var(--theme-footer-text-color);            /* Text color */
-    padding: 2em 0;                                   /* Increased padding for better spacing */
-    text-align: center;
-    font-family: Arial, sans-serif;                   /* Use a standard font family */
-  }
+ /* footer */
   
-  .footer-content p {
-    margin: 0.5em 0;
-  }
-  
-  .footer-content a {
-    color: var(--theme-footer-link-color);            /* Link color */
+ .footer {
+    background-color: #0242AE;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-bottom: 2px solid #EC0011;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+.footer .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+.footer .links, .footer .social {
+    flex: 1;
+    padding: 0 20px;
+}
+.footer .links div, .footer .social div {
+    margin-bottom: 20px;
+}
+.footer .links p, .footer .social p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer .links a, .footer .social a {
+    color: #fff;
     text-decoration: none;
-    margin: 0 0.5em;
-  }
-  
-  .footer-content a:hover {
-    color: var(--theme-footer-link-hover-color);      /* Link hover color */
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.footer .links a:hover, .footer .social a:hover {
     text-decoration: underline;
-  }
+}
+.footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
   
 
 /* Print styles */
