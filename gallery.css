@@ -107,7 +107,7 @@ header {
 }
 .thumbnail img {
     width: 100%;
-    height: auto; /* Make images responsive */
+    height: 530px ;
     object-fit: cover;
 }
 .thumbnail-1 {

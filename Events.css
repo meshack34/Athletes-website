@@ -106,7 +106,7 @@ header {
 }
 .thumbnail img {
     width: 100%;
-    height: auto;
+    height: 530px ;
     object-fit: cover;
 }
 .thumbnail-1 {
