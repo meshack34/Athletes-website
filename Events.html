@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="Events.css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="js/jquery.js"></script>
     <script>
         jQuery(window).load(function () {
-            $x = $(window).width();
+            var $x = $(window).width();
             if ($x > 1024) {
                 jQuery("#content .row").preloader();
             }
             jQuery('.spinner').animate({
                 'opacity': 0
             }, 1000, 'easeOutCubic', function () {
-                jQuery(this).css('display', 'none')
+                jQuery(this).css('display', 'none');
             });
         });
     </script>
@@ -113,20 +113,18 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-container">
-      
-          
-          <div class="social">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">YouTube</a>
-              <a href="#">TikTok</a>
-          </div>
-      </div>
-      <div class="copyright">
-          &copy;2024 World Athletics. All Rights Reserved.
-      </div>
-  </footer>
+        <div class="footer-container">
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy;2024 World Athletics. All Rights Reserved.
+        </div>
+    </footer>
 
     <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
