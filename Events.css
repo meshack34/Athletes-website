@@ -174,7 +174,10 @@ header {
 .social i {
     font-size: 20px;
 }
-
+.icon {
+    width: 20px;
+    height: 20px;
+}
 
 /* Mobile Menu Toggle */
 .menu-toggle {

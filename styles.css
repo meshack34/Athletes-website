@@ -166,6 +166,10 @@ header {
     padding: 20px;
     text-align: center;
 }
+.icon {
+    width: 20px;
+    height: 20px;
+}
 .footer-container {
     display: flex;
     justify-content: center;

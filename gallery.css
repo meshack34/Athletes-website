@@ -158,7 +158,10 @@ header {
     margin-top: 10px;
     font-size: 14px;
 }
-
+.icon {
+    width: 20px;
+    height: 20px;
+}
 .social a {
     color: var(--theme-footer-link-color);
     text-decoration: none;
